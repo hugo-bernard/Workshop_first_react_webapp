@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function Layout() {
+export default function Layout({title, children}) {
   return (
-    <div>Layout</div>
+    <main className="h-full relative">
+        {children}
+    </main>
   )
 }
